@@ -12,7 +12,6 @@ function CityCard({cityPlace, src, weather, date}) {
 
   const getData = async () => {
     const res = await Api(cityPlace);
-    console.log(res);
     setCity(res);
   }
 
