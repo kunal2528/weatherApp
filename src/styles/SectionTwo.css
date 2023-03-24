@@ -1,0 +1,12 @@
+.sectionTwo {
+  height: 110vh;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+.sectionTwo > img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: -100px;
+}

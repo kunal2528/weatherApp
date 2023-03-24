@@ -1,0 +1,53 @@
+.sectionOne {
+  background-color: white;
+  text-align: center;
+}
+
+.sectionOne > h3 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: 100px;
+  letter-spacing: 1px;
+  color: rgb(17, 0, 65);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 450px;
+  cursor: pointer;
+  padding: 20px 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.inputSearch {
+  width: 100%;
+  color: gray;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.searchIcon {
+  color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+  .input{
+    margin: auto;
+    max-width: 180px;
+  }
+}

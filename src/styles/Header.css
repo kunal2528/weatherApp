@@ -1,0 +1,147 @@
+.header {
+  background-image: url('https://images.unsplash.com/photo-1457528877294-b48235bdaa68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.headerMenu {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.headerMenu > p {
+  font-size: 18px;
+  padding: 18px;
+}
+
+.headerMenu > .bolder {
+  font-weight: bolder;
+}
+
+.headerCard {
+  background-color: transparent;
+  margin-bottom: 100px;
+  margin-right: 75px;
+  margin-left: auto;
+  margin-top: 30px;
+  width: 360px;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  height: fit-content;
+  border-radius: 5px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  text-align: left;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .headerCard {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .headerCard {
+    max-width: 200px;
+    margin: auto;
+    padding: 5px;
+  }
+}
+
+.weatherDetailHeader {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  letter-spacing: 0.5px;
+}
+
+.cardDetail {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.cardDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 10px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.headerBottom {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  padding-left: 80px;
+  color: white;
+  align-items: center;
+}
+
+.temp {
+  font-size: 7rem;
+}
+
+.name {
+  margin-top: 15px;
+  font-size: 3rem;
+  padding-left: 15px;
+  letter-spacing: 0.15rem;
+  font-weight: 600;
+}
+
+.name > .nameDetails {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.nameDetails {
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: 0;
+}
+
+.headerBottom > .weatherIcon {
+  font-size: 40px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .headerBottom {
+    margin: 25px;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .temp {
+    font-size: 3rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .name > .nameDetails {
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  .headerBottom > .weatherIcon {
+    font-size: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+}

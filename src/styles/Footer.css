@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #000;
+  height: fit-content;
+  padding: 50px 100px;
+  color: white;
+}
+
+.weatherApp{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.footerOptions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 400;
+  width: 180px;
+  letter-spacing: 1px;
+  padding: 20px;
+}
+

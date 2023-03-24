@@ -1,0 +1,64 @@
+.news {
+  margin: 0px 15px 15px 15px;
+  position: relative;
+  width: 250px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border-radius: 10px;
+}
+
+.overlayText {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0.1, 0.1, 0.9);
+  overflow: hidden;
+  width: 250px;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 10px;
+}
+
+.news:hover:first-child .overlayText {
+  height: 100%;
+}
+
+.news:first-child:hover > p{
+  visibility: hidden;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text > button {
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 10px 16px;
+  font-size: 10px;
+}
+
+.news > img {
+  width: 250px;
+  height: 55vh;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.news > p{
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 30px;
+  margin-top: -85px;
+  color: white;
+  font-size: 1.3rem;
+}
